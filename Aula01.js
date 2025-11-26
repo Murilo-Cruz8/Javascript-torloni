@@ -36,31 +36,31 @@
 //     console.log("Você é menor de idade, kinho")
 // }
 
-let estacoes = prompt("digite uma estações do ano: ")
+// let estacoes = prompt("digite uma estações do ano: ")
 
-switch (estacoes) {
-    case "Verão":
-        console.log("Muito calor e praia")
+// switch (estacoes) {
+//     case "Verão":
+//         console.log("Muito calor e praia")
 
-        break;
+//         break;
 
-    case "outono":
-        console.log("As folhas caem no final")
+//     case "outono":
+//         console.log("As folhas caem no final")
 
-        break;
+//         break;
 
-    case "iverno":
-        console.log("Está muito frio")
+//     case "iverno":
+//         console.log("Está muito frio")
 
-        break;
+//         break;
 
-    case "Primavera":
-        console.log("Eu vejo flores em você kinho e jetulinho.")
+//     case "Primavera":
+//         console.log("Eu vejo flores em você kinho e jetulinho.")
 
-        break;
+//         break;
 
-    default:
+//     default:
 
-        break;
+//         break;
 
-}
+// }
