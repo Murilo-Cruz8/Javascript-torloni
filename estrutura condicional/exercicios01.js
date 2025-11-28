@@ -11,33 +11,33 @@
 
 // ------------exercicio 02------------------
 
-let numero = parseInt(prompt("Digite um número de 1 a 7 referente ao dia da semana:"));
+// let numero = parseInt(prompt("Digite um número de 1 a 7 referente ao dia da semana:"));
 
-switch (numero) {
-    case 1:
-        console.log("Segunda-feira");
-        break;
-    case 2:
-        console.log("Terça-feira");
-        break;
-    case 3:
-        console.log("Quarta-feira");
-        break;
-    case 4:
-        console.log("Quinta-feira");
-        break;
-    case 5:
-        console.log("Sexta-feira");
-        break;
-    case 6:
-        console.log("Sábado");
-        break;
-    case 7:
-        console.log("Domingo");
-        break;
-    default:
-        console.log("Número inválido! Digite um valor de 1 a 7.");
-}
+// switch (numero) {
+//     case 1:
+//         console.log("Segunda-feira");
+//         break;
+//     case 2:
+//         console.log("Terça-feira");
+//         break;
+//     case 3:
+//         console.log("Quarta-feira");
+//         break;
+//     case 4:
+//         console.log("Quinta-feira");
+//         break;
+//     case 5:
+//         console.log("Sexta-feira");
+//         break;
+//     case 6:
+//         console.log("Sábado");
+//         break;
+//     case 7:
+//         console.log("Domingo");
+//         break;
+//     default:
+//         console.log("Número inválido! Digite um valor de 1 a 7.");
+// }
 
 // ------------exercicio 03-------------------
 
@@ -110,29 +110,48 @@ switch (numero) {
 
 // --------------exercicio 08---------------------
 
-// let peso = parseFloat(prompt("Fale aqui seu peso em kg:"));
-// let altura = parseFloat(prompt("Fale aqui sua altura em metros:"))
+let peso = parseFloat(prompt("Fale aqui seu peso em kg:"));
+let altura = parseFloat(prompt("Fale aqui sua altura em metros:"))
 
-// let imc = peso / (altura * altura)
+let imc = peso / (altura * altura)
 
-// let classificacao = "";
+let classificacao = "";
 
-// if (imc < 18.5){
-//     classificacao = "Abaixo do peso";
-// } else if (imc >= 18.5 && imc <= 24.9){
-//     classificacao = "Peso normal";
-// } else if (imc >= 25.0 && imc <= 29.9){
-//     classificacao = "Sobrepeso";
-// } else if (imc >= 30.0 && imc <= 34.9){
-//     classificacao = "Obesidade grau 01";
-// } else if (imc >= 35.0 && imc <= 39.9){
-//     classificacao = "Obesidade grau 02";
-// } else {
-//     classificacao = "Obesidade grau 03";
+if (imc < 18.5){
+    classificacao = "Abaixo do peso";
+} else if (imc >= 18.5 && imc <= 24.9){
+    classificacao = "Peso normal";
+} else if (imc >= 25.0 && imc <= 29.9){
+    classificacao = "Sobrepeso";
+} else if (imc >= 30.0 && imc <= 34.9){
+    classificacao = "Obesidade grau 01";
+} else if (imc >= 35.0 && imc <= 39.9){
+    classificacao = "Obesidade grau 02";
+} else {
+    classificacao = "Obesidade grau 03";
+}
+
+alert(`Seu IMC é: ${imc.toFixed(2)}\nclassificação: ${classificacao}`);
+console.log(`IMC: ${imc.toFixed(2)} - ${classificacao}`);
+
+
+// -------------------- Desafio da alexia ---------------------------
+
+// let primeiroNumero = parseInt(prompt("Escreva o primeiro número"));
+// let segundoNumero = parseInt(prompt("escreva o segundo número"));
+// let terceiroNumero = parseInt(prompt("escreva o terceiro número"));
+
+// if (primeiroNumero < segundoNumero && segundoNumero < terceiroNumero ){
+//     alert("Está em ordem crescente.");
 // }
 
-// alert(`Seu IMC é: ${imc.toFixed(2)}\nclassificação: ${classificacao}`);
-// console.log(`IMC: ${imc.toFixed(2)} - ${classificacao}`);
+// if(terceiroNumero < segundoNumero && segundoNumero < primeiroNumero){
+//     alert("Está em ordem decrescente")
+// }
+
+// else if(primeiroNumero < segundoNumero && segundoNumero >= terceiroNumero){
+//     alert("Está em ordem aleatória")
+// }
 
 
 
